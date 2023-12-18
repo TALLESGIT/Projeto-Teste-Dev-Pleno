@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  background: #33B667;
+  height: 76px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+
+}
+
+h3 {
+  color: #000;
+  text-align: center;
+  font-size: 22.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 207px 415px 82px;
+}
+
+main {
+  width: 340px;
+  height: 394px;
+  border-radius: 10px;
+  border: 1px solid #DDD;
+  background: #FFF;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button-anterior {
+  margin: 24px 210px 0 21px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-proximo {
+  margin: 24px 21px 21px;
+  border: none;
+  cursor: pointer;
+}
+
+h4 {
+  position: relative;
+  bottom: 50px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.rodadas {
+  color: #000;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.partida-1 {
+  padding: 56px 21px 33px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20%;
+}
+
+.partida-2 {
+  padding: 56px 21px 33px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20%;
+}
+
+.partida-3 {
+  padding: 56px 21px 33px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20%;
+}
+
+.partida-4 {
+  padding: 56px 21px 33px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 20%;
+}

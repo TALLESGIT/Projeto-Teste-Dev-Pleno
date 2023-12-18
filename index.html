@@ -3,10 +3,14 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="pré-conectar" href="https://fonts.googleapis.com">
+  <link rel="pré-conectar" href="https://fonts.gstatic.com" origem cruzada>
+  <link href="https://fonts.googleapis.com/css2?family=Inter: wght@400;700;900&display=swap" rel="folha de estilo">
+  <link rel="stylesheet" href="style.css">
   <title>SEVN ESPORTES</title>
 </head>
-// Inicio do Site //
+
+<!-- Inicio do Site -->
 
 <body>
   <header>
@@ -15,41 +19,50 @@
   <h3>Confira as rodadas do nosso campeonato fictício!</h3>
   <main>
     <div id="Inicio-rodadas">
-      <button type="anterior"><img src="./assets/btn_left.png" alt="button-Anterior"></button>
-      <h4>Rodadas de Jogos</h4>
-      <p><b>RODADA 1</b></p>
-      <button type="proximo"><img src="./assets/btn_right.png" alt="button-Proximo"></button>
+      <button class="button-anterior"><img src="./assets/btn_left.png" alt="button-Anterior"></button>
+      <button class="button-proximo"><img src="./assets/btn_right.png" alt="button-Proximo"></button>
     </div>
+    <h4>Rodadas de Jogos</h4>
+    <p class="rodadas"><b>RODADA 1</b></p>
 
-    // Criei um containier principal e criei todos os jogos dentro do containier//
+    <!--Criei um container principal e criei todos os jogos dentro do container-->
 
-    <div class="Contenier">
+    <div class="Container">
       <div class="Jogo">
-        <div class="time-casa"><img src="./assets/Time A.png" alt="logoTimeA"></div>
-        <p><b>Time A</b></p>
-        <div class="placar">3 x 0</div>
-        <p><b>Time B</b></p>
-        <div class="time-visitante"><img src="./assets/Tme B.png" alt="logoTimeB"></div>
 
-        <div class="time-casa"> <img src="./assets/Time C.png" alt="logoTimeC"></div>
-        <p><b>Time C</b></p>
-        <div class="placar">1 x 2</div>
-        <p><b>Time D</b></p>
-        <div class="time-visitante"><img src="./assets/Time D.png" alt="logoTimeD"></div>
+        <div class="partida-1">
+          <div class="time-casa"><img src="./assets/Time A.png" alt="logoTimeA"></div>
+          <p><b>Time A</b></p>
+          <div class="placar">3 x 0</div>
+          <p><b>Time B</b></p>
+          <div class="time-visitante"><img src="./assets/Tme B.png" alt="logoTimeB"></div>
+        </div>
 
-        <div class="time-casa"><img src="./assets/Time E.png" alt="logoTimeE"></div>
-        <p><b>Time E</b></p>
-        <div class="placar">4 x 3</div>
-        <p><b>Time F</b></p>
-        <div class="time-visitante"><img src="./assets/Time F.png" alt="logoTimeF"></div>
+        <div class="partida-2">
+          <div class="time-casa"> <img src="./assets/Time C.png" alt="logoTimeC"></div>
+          <p><b>Time C</b></p>
+          <div class="placar">1 x 2</div>
+          <p><b>Time D</b></p>
+          <div class="time-visitante"><img src="./assets/Time D.png" alt="logoTimeD"></div>
+        </div>
 
-        <div class="time-casa"><img src="./assets/Time G .png" alt="logoTimeG"></div>
-        <p><b>Time G</b></p>
-        <div class="placar">1 x 0</div>
-        <p><b>Time H</b></p>
-        <div class="time-visitante"><img src="./assets/Time G .png" alt="logoTimeG"></div>
+        <div class="partida-3">
+          <div class="time-casa"><img src="./assets/Time E.png" alt="logoTimeE"></div>
+          <p><b>Time E</b></p>
+          <div class="placar">4 x 3</div>
+          <p><b>Time F</b></p>
+          <div class="time-visitante"><img src="./assets/Time F.png" alt="logoTimeF"></div>
+        </div>
+
+        <div class="partida-4">
+          <div class="time-casa"><img src="./assets/Time G .png" alt="logoTimeG"></div>
+          <p><b>Time G</b></p>
+          <div class="placar">1 x 0</div>
+          <p><b>Time H</b></p>
+          <div class="time-visitante"><img src="./assets/Time H.png" alt="logoTimeG"></div>
+        </div>
+
       </div>
-
     </div>
   </main>
 </body>
